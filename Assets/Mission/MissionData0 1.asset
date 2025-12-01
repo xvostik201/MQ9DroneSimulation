@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a650bd6cfdab904dbfa1264ef2e066a, type: 3}
+  m_Name: MissionData0 1
+  m_EditorClassIdentifier: 
+  missionName: Combat Sortie
+  briefingText: 'Intel indicates an enemy buildup east of the AO.
+
+    Tasking: search
+    the sector, acquire all hostile contacts, and neutralize them.'
+  missionImage: {fileID: 0}
+  missionID: mission_001
+  difficulty: 2
+  missionPrefab: {fileID: 358927433757615708, guid: 05b272dbb70b77140a1d06661c3e6663,
+    type: 3}

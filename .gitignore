@@ -1,0 +1,33 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Unity auto-generated
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.pidb
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Plastic / Collaborate
+. PlasticSCM/
+
+# Crash reports
+sysinfo.txt
+
+# Visual Studio
+.vs/
