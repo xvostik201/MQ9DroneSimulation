@@ -11,13 +11,13 @@ Built as a technical demonstration of clean Unity architecture, real-time HUD sy
 ## 🎥 Preview
 
 ### Main Menu  
-![menu](./GitHubMedia/Gifs/Menu.gif)
+![menu](./GitHubMedia/Menu.gif)
 
 ### Mission Intro  
-![intro](./GitHubMedia/Gifs/Intro.gif)
+![intro](./GitHubMedia/Intro.gif)
 
 ### Gameplay  
-![gameplay](./GitHubMedia/Gifs/Gameplay.gif)
+![gameplay](./GitHubMedia/Gameplay.gif)
 
 ---
 
@@ -41,20 +41,20 @@ Subsystems are intentionally decoupled:
 ## 📸 Screenshots
 
 ### Mission Briefing  
-![briefing](./GitHubMedia/Screenshots/IntroScreen.png)
+![briefing](./GitHubMedia/IntroScreen.png)
 
 ### Map Interface  
-![map](./GitHubMedia/Screenshots/MapScreen.png)
+![map](./GitHubMedia/MapScreen.png)
 
 ### Targeting & HUD  
-![target0](./GitHubMedia/Screenshots/TargetScreen0.png)
-![target1](./GitHubMedia/Screenshots/TargetScreen1.png)
+![target0](./GitHubMedia/TargetScreen0.png)
+![target1](./GitHubMedia/TargetScreen1.png)
 
 ### Destruction / FX  
-![destroy](./GitHubMedia/Screenshots/DestroyTankScreen.png)
+![destroy](./GitHubMedia/DestroyTankScreen.png)
 
 ### Mission Complete  
-![outro](./GitHubMedia/Screenshots/OutroScreen.png)
+![outro](./GitHubMedia/OutroScreen.png)
 
 ---
 
