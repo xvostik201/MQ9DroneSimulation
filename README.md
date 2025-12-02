@@ -51,7 +51,8 @@ Subsystems are intentionally decoupled:
 - 🔵 **Drone (You)** — current UAV position and heading  
 - 🔴 **Paladin Units** — artillery group, showing aim status  
 - 🟡 **Target Marker** — selected strike position  
-- ⚪ **Range Circles** — distance visualization for artillery engagement
+- - **Large white circle** — the drone’s flight trajectory on the map.
+- - **White line** — visual connection between the drone and the placed target marker.
 
 ### Targeting & HUD  
 ![target0](./GitHubMedia/TargetScreen0.png)
