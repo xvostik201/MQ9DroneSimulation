@@ -46,6 +46,13 @@ Subsystems are intentionally decoupled:
 ### Map Interface  
 ![map](./GitHubMedia/MapScreen.png)
 
+**Map Legend:**
+
+- 🔵 **Drone (You)** — current UAV position and heading  
+- 🔴 **Paladin Units** — artillery group, showing aim status  
+- 🟡 **Target Marker** — selected strike position  
+- ⚪ **Range Circles** — distance visualization for artillery engagement
+
 ### Targeting & HUD  
 ![target0](./GitHubMedia/TargetScreen0.png)
 ![target1](./GitHubMedia/TargetScreen1.png)
