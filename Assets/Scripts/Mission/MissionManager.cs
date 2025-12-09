@@ -25,26 +25,36 @@ public class MissionManager : MonoBehaviour
     private void Start()
     {
         LoadCurrentMission();
-        SpawnMissionContent();
-        StartMission();
     }
 
     private void LoadCurrentMission()
     {
         int index = ProgressManager.Data.CurrentMission;
 
-        if (index >= _database.missions.Length)
+        if (index < 0 || index >= _database.missions.Length)
         {
-            SceneLoader.Load("CreditsScene");
+            Debug.LogWarning("Mission index out of range, showing credits.");
+            SceneLoader.LoadScene("CreditsScene");
             return;
         }
 
-        _missionData = _database.missions[index];
+        MissionData data = _database.missions[index];
+
+        if (data.missionPrefab == null)
+        {
+            SceneLoader.LoadScene("CreditsScene");
+            return;
+        }
+
+        _missionData = data;
+
+        SpawnMissionContent();
+        StartMission();
     }
 
     private void SpawnMissionContent()
     {
-        _spawner.SpawnMission(_missionData.missionPrefab);
+        _spawner.SpawnMission(_missionData?.missionPrefab);
         _enemies = _spawner.GetEnemies();
     }
 

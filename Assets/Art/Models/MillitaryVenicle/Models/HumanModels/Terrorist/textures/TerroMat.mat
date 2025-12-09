@@ -112,12 +112,12 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _EmissionIntensity: 0.08
+    - _EmissionIntensity: 0.62
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _HeatFallof: -0.76
+    - _HeatFallof: -0.74
     - _Metallic: 0
     - _NoiseScale: 0
     - _NoiseSpeed: 0

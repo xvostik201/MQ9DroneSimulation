@@ -73,7 +73,7 @@ public class LevelUI : MonoBehaviour
     private IEnumerator IntroRoutine()
     {
         MissionData data = _manager.MissionData;
-        
+
         CursorManager.Unlock();
         TimeManager.Instance.FreezeGameplay();
         TimeManager.Instance.Pause();
@@ -154,6 +154,7 @@ public class LevelUI : MonoBehaviour
             .SetUpdate(true)
             .WaitForCompletion();
 
+        AudioManager.Instance.PauseAllSfx();
         _completeTitle.gameObject.SetActive(true);
         yield return Typewrite(_completeTitle, "MISSION COMPLETED");
 

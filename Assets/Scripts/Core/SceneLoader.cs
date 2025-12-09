@@ -34,6 +34,23 @@ public static class SceneLoader
         yield return LoadAsyncInternal(sceneName);
     }
 
+    public static void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public static void LoadSceneDelayed(string sceneName, float delay)
+    {
+        EnsureRunner();
+        _runner.StartCoroutine(LoadSceneDelayedRoutine(sceneName, delay));
+    }
+
+    private static IEnumerator LoadSceneDelayedRoutine(string sceneName, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        Load(sceneName);
+    }
+
     private static IEnumerator LoadAsyncInternal(string sceneName)
     {
         _isLoading = true;
