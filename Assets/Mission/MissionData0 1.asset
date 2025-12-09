@@ -18,7 +18,7 @@ MonoBehaviour:
     Tasking: search
     the sector, acquire all hostile contacts, and neutralize them.'
   missionImage: {fileID: 0}
-  missionID: mission_001
+  missionID: mission_002
   difficulty: 2
   missionPrefab: {fileID: 358927433757615708, guid: 05b272dbb70b77140a1d06661c3e6663,
     type: 3}
